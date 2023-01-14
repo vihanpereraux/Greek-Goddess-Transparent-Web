@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+@font-face {
+    font-family: 'Ventralie';
+    src: url(../fonts/Ventralie.otf);
+}
+
+
+body{
+    background: white;
+}
+
+
+#tframe{
+    pointer-events: none !important;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 2;
+}
+
+
+.top-text {
+    position: absolute;
+    z-index: 3;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    font-size: 28px;
+    font-family: 'Ventralie' !important;
+}
+.top-element-wrapper{
+    position: absolute;
+    z-index: 3;
+    height: 40px;
+    transform: translateX(-50%);
+    width: 400px;
+    left: 50%;
+    top: 3%;
+    /* margin-top: 20px; */
+    background: none;
+}
+.vertical-element{
+    position: absolute;
+    width: 1px;
+    height: 12px;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    background-color: black;
+    z-index: 3;
+}
+.element-1{left: 15%;} .element-2{left: 20%;} .element-3{left: 25%;}
+.element-4{right: 15%;} .element-5{right: 20%;} .element-6{right: 25%;}
+
+
+#top-left-tag-wrapper{
+    position: absolute;
+    z-index: 3;
+    height: 20px;
+    min-width: 160px;
+    width: auto;
+    left: 7%;
+    margin-top: 7px;
+    background: none;
+}
+#top-left-tag{
+    color: black;
+    position: absolute;
+    z-index: 3;
+    font-size: 12px;
+    left: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+
+#top-right-tag-wrapper{
+    position: absolute;
+    z-index: 3;
+    height: 20px;
+    min-width: 180px;
+    width: auto;
+    right: 7%;
+    margin-top: 7px;
+    background: none;
+}
+#top-right-tag{
+    color: black;
+    position: absolute;
+    z-index: 3;
+    font-size: 12px;
+    left: 0;
+    font-family: 'Inter', sans-serif;
+}
