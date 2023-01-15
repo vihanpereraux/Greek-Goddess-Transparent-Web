@@ -1,0 +1,321 @@
+:root{
+    --frame-bg-color: #BABABA;
+    --corner-margins: 15px;
+}
+
+
+#tframe{
+    pointer-events: none !important;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 2;
+}
+#piller-1{
+    width: 35px;
+    height: 100vh;
+    background: var(--frame-bg-color);
+    position: absolute;
+    z-index: 3;
+    right: 0;
+}
+#piller-2{
+    width: 35px;
+    height: 100vh;
+    background: var(--frame-bg-color);
+    position: absolute;
+    z-index: 3;
+    left: 0;
+}
+#piller-3{
+    width: 100vw;
+    height: 35px;
+    background: var(--frame-bg-color);
+    position: absolute;
+    z-index: 3;
+    top: 0;
+}
+#piller-4{
+    width: 100vw;
+    height: 35px;
+    background: var(--frame-bg-color);
+    position: absolute;
+    z-index: 3;
+    bottom: 0;
+}
+#piller-5{
+    width: 34vw;
+    height: 75px;
+    border-radius: 50%;
+    background: var(--frame-bg-color);
+    position: absolute;
+    z-index: 4;
+    top: 0;
+    transform: translateX(-50%);
+    left: 50%;
+}
+#piller-6{
+    width: 34vw;
+    height: 75px;
+    border-radius: 50%;
+    background: var(--frame-bg-color);
+    position: absolute;
+    z-index: 4;
+    bottom: 0;
+    transform: translateX(-50%);
+    left: 50%;
+}
+
+
+.top-element-wrapper{
+    position: absolute;
+    z-index: 3;
+    height: 40px;
+    transform: translateX(-50%);
+    width: 400px;
+    left: 50%;
+    top: 25%;
+    /* margin-top: 20px; */
+    background: none;
+}
+.top-element-wrapper .top-text {
+    position: absolute;
+    z-index: 3;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    font-size: 28px;
+    font-family: 'Ventralie' !important;
+}
+.top-element-wrapper .vertical-element{
+    position: absolute;
+    width: 1px;
+    height: 12px;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    background-color: black;
+    z-index: 3;
+}
+.element-1{left: 15%;} .element-2{left: 20%;} .element-3{left: 25%;}
+.element-4{right: 15%;} .element-5{right: 20%;} .element-6{right: 25%;}
+
+
+#top-left-tag-wrapper{
+    position: absolute;
+    z-index: 3;
+    height: 20px;
+    min-width: 160px;
+    width: auto;
+    left: 7%;
+    margin-top: 7px;
+    background: none;
+}
+#top-left-tag{
+    color: black;
+    position: absolute;
+    z-index: 3;
+    font-size: 12px;
+    left: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+
+#top-right-tag-wrapper{
+    position: absolute;
+    z-index: 3;
+    height: 20px;
+    min-width: 180px;
+    width: auto;
+    right: 7%;
+    margin-top: 7px;
+    background: none;
+}
+#top-right-tag{
+    color: black;
+    position: absolute;
+    z-index: 3;
+    font-size: 12px;
+    left: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+
+.bottom-element-wrapper{
+    position: absolute;
+    z-index: 3;
+    height: 40px;
+    transform: translateX(-50%);
+    width: 400px;
+    left: 50%;
+    bottom: 25%;
+    /* margin-top: 20px; */
+    background: none;
+}
+.bottom-element-wrapper .bottom-text {
+    position: absolute;
+    z-index: 3;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    font-size: 28px;
+    font-family: 'Ventralie' !important;
+}
+.bottom-element-wrapper .circle-element{
+    position: absolute;
+    z-index: 3;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: none;
+    border: 1px solid black;
+    transform: translate(-50%, -50%);
+    top: 50%;
+}
+.circle-1{left: 22%;} .circle-2{left: 19%;} .circle-3{left: 16%;}
+.circle-4{right: 18%;} .circle-5{right: 15%;} .circle-6{right: 12%;}
+.bottom-element-wrapper #left-dash{
+    position: absolute;
+    width: 40px;
+    height: 0.5px;
+    background-color: black;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 10%;
+}
+.bottom-element-wrapper #right-dash{
+    position: absolute;
+    width: 40px;
+    height: 0.5px;
+    background-color: black;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    right: 1%;
+}
+
+
+.side-elemnts-pack{
+    position: absolute;
+    width: 2vw;
+    height: 170px;
+    background: none;
+    z-index: 3;
+    background: none;
+}
+.side-elemnts-pack #dash-1{
+    height: 40px;
+    width: 1px;
+    background: black;
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    top: 0;
+    z-index: 3;
+}
+.side-elemnts-pack #circle-1{
+    width: 15px;
+    height: 15px;
+    background: none;
+    border: 1px solid black;
+    position: absolute;
+    z-index: 3;
+    border-radius: 50%;
+    transform: translateX(-50%);
+    left: 50%;
+    margin-top: 40px;
+}
+.side-elemnts-pack #horizontal-dash{
+    position: absolute;
+    width: 10px;
+    height: 1px;
+    background: black;
+    z-index: 3;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+}
+.side-elemnts-pack #vertical-dash{
+    position: absolute;
+    width: 10px;
+    height: 1px;
+    background: black;
+    z-index: 3;
+    transform: translate(-50%, -50%) rotate(90deg);
+    left: 50%;
+    top: 50%;
+}
+.side-elemnts-pack #circle-2{
+    width: 15px;
+    height: 15px;
+    background: none;
+    border: 1px solid black;
+    position: absolute;
+    z-index: 3;
+    border-radius: 50%;
+    transform: translateX(-50%);
+    left: 50%;
+    bottom: 40px;
+}
+.side-elemnts-pack #dash-2{
+    height: 40px;
+    width: 1px;
+    background: black;
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    bottom: 0;
+    z-index: 3;
+}
+.left-top-elements-wrapper{
+    left: 0;
+    top: 10%;
+}
+.left-bottom-elements-wrapper{
+    left: 0;
+    bottom: 10%;
+}
+.right-top-elements-wrapper{
+    right: 0;
+    top: 10%;
+}
+.right-top-elements-wrapper{
+    right: 2.5;
+    top: 10%;
+}
+.right-bottom-elements-wrapper{
+    right: 2.5;
+    bottom: 10%;
+}
+
+
+.corners{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--frame-bg-color);
+    position: absolute;
+    z-index: 3;
+}
+.corner-1{
+    top: 0;
+    left: 0;
+    margin-left: var(--corner-margins);
+    margin-top: var(--corner-margins);
+}
+.corner-2{
+    top: 0;
+    right: 0;
+    margin-right: var(--corner-margins);
+    margin-top: var(--corner-margins);
+}
+.corner-3{
+    left: 0;
+    bottom: 0;
+    margin-left: var(--corner-margins);
+    margin-bottom: var(--corner-margins);
+}
+.corner-4{
+    right: 0;
+    bottom: 0;
+    margin-right: var(--corner-margins);
+    margin-bottom: var(--corner-margins);
+}
