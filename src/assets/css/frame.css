@@ -1,6 +1,7 @@
 :root{
     --frame-bg-color: #BABABA;
     --corner-margins: 15px;
+    --frame-z-position: 6;
 }
 
 
@@ -15,32 +16,32 @@
     width: 35px;
     height: 100vh;
     background: var(--frame-bg-color);
-    position: absolute;
-    z-index: 3;
+    position: fixed;
+    z-index: var(--frame-z-position);
     right: 0;
 }
 #piller-2{
     width: 35px;
     height: 100vh;
     background: var(--frame-bg-color);
-    position: absolute;
-    z-index: 3;
+    position: fixed;
+    z-index: var(--frame-z-position);
     left: 0;
 }
 #piller-3{
     width: 100vw;
     height: 35px;
     background: var(--frame-bg-color);
-    position: absolute;
-    z-index: 3;
+    position: fixed;
+    z-index: var(--frame-z-position);
     top: 0;
 }
 #piller-4{
     width: 100vw;
     height: 35px;
     background: var(--frame-bg-color);
-    position: absolute;
-    z-index: 3;
+    position: fixed;
+    z-index: var(--frame-z-position);
     bottom: 0;
 }
 #piller-5{
@@ -48,8 +49,8 @@
     height: 75px;
     border-radius: 50%;
     background: var(--frame-bg-color);
-    position: absolute;
-    z-index: 4;
+    position: fixed;
+    z-index: var(--frame-z-position);
     top: 0;
     transform: translateX(-50%);
     left: 50%;
@@ -59,8 +60,8 @@
     height: 75px;
     border-radius: 50%;
     background: var(--frame-bg-color);
-    position: absolute;
-    z-index: 4;
+    position: fixed;
+    z-index: var(--frame-z-position);
     bottom: 0;
     transform: translateX(-50%);
     left: 50%;
@@ -68,7 +69,7 @@
 
 
 .top-element-wrapper{
-    position: absolute;
+    position: fixed;
     z-index: 3;
     height: 40px;
     transform: translateX(-50%);
@@ -79,7 +80,7 @@
     background: none;
 }
 .top-element-wrapper .top-text {
-    position: absolute;
+    position: fixed;
     z-index: 3;
     transform: translate(-50%, -50%);
     left: 50%;
@@ -88,7 +89,7 @@
     font-family: 'Ventralie' !important;
 }
 .top-element-wrapper .vertical-element{
-    position: absolute;
+    position: fixed;
     width: 1px;
     height: 12px;
     transform: translate(-50%, -50%);
@@ -141,7 +142,7 @@
 
 
 .bottom-element-wrapper{
-    position: absolute;
+    position: fixed;
     z-index: 3;
     height: 40px;
     transform: translateX(-50%);
@@ -152,7 +153,7 @@
     background: none;
 }
 .bottom-element-wrapper .bottom-text {
-    position: absolute;
+    position: fixed;
     z-index: 3;
     transform: translate(-50%, -50%);
     left: 50%;
@@ -161,7 +162,7 @@
     font-family: 'Ventralie' !important;
 }
 .bottom-element-wrapper .circle-element{
-    position: absolute;
+    position: fixed;
     z-index: 3;
     width: 20px;
     height: 20px;
@@ -174,7 +175,7 @@
 .circle-1{left: 22%;} .circle-2{left: 19%;} .circle-3{left: 16%;}
 .circle-4{right: 18%;} .circle-5{right: 15%;} .circle-6{right: 12%;}
 .bottom-element-wrapper #left-dash{
-    position: absolute;
+    position: fixed;
     width: 40px;
     height: 0.5px;
     background-color: black;
@@ -183,7 +184,7 @@
     left: 10%;
 }
 .bottom-element-wrapper #right-dash{
-    position: absolute;
+    position: fixed;
     width: 40px;
     height: 0.5px;
     background-color: black;
@@ -292,7 +293,7 @@
     height: 40px;
     border-radius: 50%;
     background-color: var(--frame-bg-color);
-    position: absolute;
+    position: fixed;
     z-index: 3;
 }
 .corner-1{

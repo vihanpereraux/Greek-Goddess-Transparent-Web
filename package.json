@@ -19,5 +19,8 @@
   "homepage": "https://github.com/vihanpereraux/Greek-Goddess-Transparent-Web#readme",
   "devDependencies": {
     "parcel": "^2.8.2"
+  },
+  "dependencies": {
+    "locomotive-scroll": "^4.1.4"
   }
 }
