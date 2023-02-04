@@ -21,6 +21,7 @@
     "parcel": "^2.8.2"
   },
   "dependencies": {
+    "gsap": "^3.11.4",
     "locomotive-scroll": "^4.1.4"
   }
 }
