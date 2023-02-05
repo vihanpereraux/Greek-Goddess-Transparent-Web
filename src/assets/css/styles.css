@@ -15,7 +15,7 @@
 
 
 body{
-    background: rgb(0, 0, 0) !important;
+    background: rgb(255, 255, 255) !important;
     width: 100vw;
     height: 100vh;
     overflow-x: hidden !important;
@@ -181,8 +181,12 @@ body{
 .section-03{
     background: black;
 }
+.inner_img {
+	width: 100%;
+	overflow: hidden;
+}
 .section-03 .img-03{
-    width: 50%;
+    width: 47%;
     background: none;
     transform: rotate(-10deg);
 }
