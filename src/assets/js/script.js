@@ -1,6 +1,4 @@
 import LocomotiveScroll from 'locomotive-scroll';
-// import gsap from 'gsap'z;
-// import ScrollTrigger from 'gsap/ScrollTrigger';
 
 
 const scroll = new LocomotiveScroll({
@@ -11,10 +9,7 @@ const scroll = new LocomotiveScroll({
 });
 
 
-// scrollmagic init
 let ctrl = new ScrollMagic.Controller();
-
-// each image
 [].forEach.call(document.querySelectorAll('.inner_img'), function (e) {
 
     // gsap timeline
