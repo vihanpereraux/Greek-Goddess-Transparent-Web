@@ -123,21 +123,30 @@
       <div class="corners corner-2"></div>
       <div class="corners corner-3"></div>
       <div class="corners corner-4"></div>
+
+      <img 
+        id="side-panel"
+        src="assets/img/side_panel.png" alt="">
     </div>
     <!-- end of frame elements -->
+
+    <!-- controllers -->
+    <div class="btn scroll-down" onclick="scrollMovement('scroll-down')">￬</div>
+    <div class="btn scroll-up" onclick="scrollMovement('scroll-up')">￬</div>
+    <div class="mid-icon">
+      <img
+        class="mid-icon-img mx-auto d-block"
+        src="assets/img/content/mid-icon.png"
+        alt=""
+      />
+    </div>
+    <!-- end of controllers -->
 
     <!-- content -->
     <div data-scroll-container>
       <!-- story 01 -->
       <div id="story-01">
         <div class="section-01">
-          <div class="mid-icon">
-            <img
-              class="mid-icon-img mx-auto d-block"
-              src="assets/img/content/mid-icon.png"
-              alt=""
-            />
-          </div>
           <h3 class="title text-uppercase">love</h3>
           <img
             class="intro-01"
@@ -156,7 +165,7 @@
             <div>
               <img
                 class="image-01"
-                src="assets/img/content/story-01/Image 18.png"
+                src="assets/img/content/story-01/sticker-img-01.png"
                 alt=""
               />
             </div>
@@ -166,7 +175,7 @@
             <div>
               <img
                 class="image-01"
-                src="assets/img/content/story-01/Image 18.png"
+                src="assets/img/content/story-01/sticker-img-01.png"
                 alt=""
               />
             </div>
@@ -176,7 +185,7 @@
             <div>
               <img
                 class="image-01"
-                src="assets/img/content/story-01/Image 18.png"
+                src="assets/img/content/story-01/sticker-img-03.png"
                 alt=""
               />
             </div>
@@ -238,13 +247,13 @@
       <!-- story 02 -->
       <div id="story-02">
         <div class="section-01">
-          <div class="mid-icon">
+          <!-- <div class="mid-icon">
             <img
               class="mid-icon-img mx-auto d-block"
               src="assets/img/content/mid-icon.png"
               alt=""
             />
-          </div>
+          </div> -->
           <h3 class="title text-uppercase">love</h3>
           <img
             class="intro-01"
@@ -343,13 +352,13 @@
       <!-- story 03 -->
       <div id="story-03">
         <div class="section-01">
-          <div class="mid-icon">
+          <!-- <div class="mid-icon">
             <img
               class="mid-icon-img mx-auto d-block"
               src="assets/img/content/mid-icon.png"
               alt=""
             />
-          </div>
+          </div> -->
           <h3 class="title text-uppercase">love</h3>
           <img
             class="intro-01"
@@ -449,13 +458,13 @@
       <!-- story 04 -->
       <div id="story-04">
         <div class="section-01">
-          <div class="mid-icon">
+          <!-- <div class="mid-icon">
             <img
               class="mid-icon-img mx-auto d-block"
               src="assets/img/content/mid-icon.png"
               alt=""
             />
-          </div>
+          </div> -->
           <h3 class="title text-uppercase">love</h3>
           <img
             class="intro-01"
@@ -558,5 +567,28 @@
 
     <!-- custom scripts -->
     <script type="module" src="assets/js/script.js"></script>
+
+    <script>
+      var amount = 0;
+      var amount2 = 0;
+      function scrollMovement(movement){
+        switch (movement) {
+          case 'scroll-down':
+              amount2 = 0; 
+              window.scrollTo(0, 250 + amount);
+              amount = amount + 250;    
+            break;
+        
+          case 'scroll-up':
+            amount = 0;
+            window.scrollTo(0, amount2);
+            amount2 = amount2 - 10;
+            break;
+          
+          default:
+            break;
+        }
+      }
+    </script>
   </body>
 </html>
