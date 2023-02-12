@@ -345,8 +345,11 @@
     font-size: 25px;
     padding-top: 3px;
     transform: translate(-50%, -50%);
+    /* opacity: 0; */
+    /* transition: all 0.2s linear; */
 }
 .scroll-down:hover{
+    /* opacity: 1; */
     background: var(--frame-bg-color);
 }
 .scroll-up{
@@ -361,8 +364,11 @@
     padding-top: 3px;
     font-size: 25px;
     transform: translate(-50%, -50%) rotate(180deg);
+    /* opacity: 0; */
+    /* transition: all 0.2s linear; */
 }
 .scroll-up:hover{
+    opacity: 1;
     background: var(--frame-bg-color);
 }
 .mid-icon{

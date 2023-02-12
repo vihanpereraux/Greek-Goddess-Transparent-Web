@@ -141,7 +141,7 @@ body{
     animation: scrollText 15s infinite linear;;
     display:flex;
     transform: translateY(-50%);
-    top: 45%;
+    top: 40%;
     height: auto;
 }
 .section-02 p {

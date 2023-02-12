@@ -576,10 +576,12 @@
               amount2 = 0; 
               window.scrollTo(0, 250 + amount);
               amount = amount + 250;    
+              // alert(amount)
             break;
         
           case 'scroll-up':
-            window.scrollTo(0, 0);
+            window.scrollTo(0, (amount - 250));
+            amount = amount - 250;
             break;
           
           default:
