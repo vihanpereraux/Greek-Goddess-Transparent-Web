@@ -115,9 +115,9 @@
     color: black;
     position: absolute;
     z-index: 3;
-    font-size: 12px;
+    font-size: 13px;
     left: 0;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Nunito', sans-serif;
 }
 
 
@@ -135,9 +135,9 @@
     color: black;
     position: absolute;
     z-index: 3;
-    font-size: 12px;
+    font-size: 13px;
     left: 0;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Nunito', sans-serif;
 }
 
 
@@ -375,7 +375,7 @@
     width: 80px; height: 80px;
     border-radius: 50%;
     background: #BABABA;
-    animation: rotation 2s infinite;
+    animation: rotation 5s linear infinite;
 }
 @keyframes rotation {
     from{

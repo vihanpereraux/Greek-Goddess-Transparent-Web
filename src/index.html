@@ -570,7 +570,6 @@
 
     <script>
       var amount = 0;
-      var amount2 = 0;
       function scrollMovement(movement){
         switch (movement) {
           case 'scroll-down':
@@ -580,9 +579,7 @@
             break;
         
           case 'scroll-up':
-            amount = 0;
-            window.scrollTo(0, amount2);
-            amount2 = amount2 - 10;
+            window.scrollTo(0, 0);
             break;
           
           default:
