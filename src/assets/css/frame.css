@@ -97,9 +97,41 @@
     background-color: black;
     z-index: 3;
 }
-.element-1{left: 15%;} .element-2{left: 20%;} .element-3{left: 25%;}
-.element-4{right: 15%;} .element-5{right: 20%;} .element-6{right: 25%;}
+.element-1{left: 15%; animation: stripAnimation 1.5s infinite;} 
+.element-2{left: 20%; animation: stripAnimation2 1.5s infinite;} 
+.element-3{left: 25%; animation: stripAnimation3 1.5s infinite;}
+.element-4{right: 15%; animation: stripAnimation4 1.5s infinite;} 
+.element-5{right: 20%; animation: stripAnimation5 1.5s infinite;} 
+.element-6{right: 25%; animation: stripAnimation6 1.5s infinite;}
 
+@keyframes stripAnimation {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+@keyframes stripAnimation2 {
+    0%{opacity: 0;}
+    30%{opacity: 0;}
+    100%{opacity: 1;}
+}
+@keyframes stripAnimation3 {
+    0%{opacity: 0;}
+    60%{opacity: 0;}
+    100%{opacity: 1;}
+}
+@keyframes stripAnimation4 {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+@keyframes stripAnimation5 {
+    0%{opacity: 0;}
+    30%{opacity: 0;}
+    100%{opacity: 1;}
+}
+@keyframes stripAnimation6 {
+    0%{opacity: 0;}
+    60%{opacity: 0;}
+    100%{opacity: 1;}
+}
 
 #top-left-tag-wrapper{
     position: absolute;
