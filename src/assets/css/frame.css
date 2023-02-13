@@ -368,7 +368,7 @@
 .scroll-down{
     position: fixed;
     bottom: 10%;
-    left: 54.5%;
+    left: 55%;
     z-index: 10;
     background: var(--frame-bg-color);
     border-radius:  50%;
@@ -387,7 +387,7 @@
 .scroll-up{
     position: fixed;
     bottom: 10%;
-    left: 45.5%;
+    left: 45%;
     z-index: 10;
     background: var(--frame-bg-color);
     border-radius:  50%;
