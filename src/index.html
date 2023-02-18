@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Greek Goddess</title>
+
+    <!-- bootstrap v5.2 -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+    />
+    <!-- custom stylings -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/frame.css" />
+
+    <!--  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/animation.gsap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!-- frame elements -->
+    <div id="frame-wrapper">
+      <div id="piller-3">
+        <div id="top-left-tag-wrapper">
+          <p id="top-left-tag">inspired from @ig</p>
+        </div>
+
+        <div id="piller-5">
+          <div class="top-element-wrapper">
+            <p class="text-uppercase top-text">greek</p>
+            <div class="vertical-element element-1"></div>
+            <div class="vertical-element element-2"></div>
+            <div class="vertical-element element-3"></div>
+
+            <div class="vertical-element element-4"></div>
+            <div class="vertical-element element-5"></div>
+            <div class="vertical-element element-6"></div>
+          </div>
+        </div>
+
+        <div id="top-right-tag-wrapper">
+          <p id="top-right-tag">developed by @vihanpereraux</p>
+        </div>
+      </div>
+
+      <div id="piller-4">
+        <div id="top-left-tag-wrapper">
+          <p id="top-left-tag">2022</p>
+        </div>
+
+        <div id="piller-6">
+          <div class="bottom-element-wrapper">
+            <p class="text-uppercase bottom-text">goddess</p>
+            <div class="circle-element circle-1"></div>
+            <div class="circle-element circle-2"></div>
+            <div class="circle-element circle-3"></div>
+            <div id="left-dash"></div>
+
+            <div class="circle-element circle-4"></div>
+            <div class="circle-element circle-5"></div>
+            <div class="circle-element circle-6"></div>
+            <div id="right-dash"></div>
+          </div>
+        </div>
+
+        <div id="top-right-tag-wrapper">
+          <p id="top-left-tag">2 / 13 '23</p>
+        </div>
+      </div>
+
+      <div id="piller-2">
+        <div class="side-elemnts-pack left-top-elements-wrapper">
+          <div id="circle-1"></div>
+          <div id="dash-1"></div>
+
+          <div id="horizontal-dash"></div>
+          <div id="vertical-dash"></div>
+
+          <div id="circle-2"></div>
+          <div id="dash-2"></div>
+        </div>
+
+        <div class="side-elemnts-pack left-bottom-elements-wrapper">
+          <div id="circle-1"></div>
+          <div id="dash-1"></div>
+
+          <div id="horizontal-dash"></div>
+          <div id="vertical-dash"></div>
+
+          <div id="circle-2"></div>
+          <div id="dash-2"></div>
+        </div>
+      </div>
+
+      <div id="piller-1">
+        <div class="side-elemnts-pack right-top-elements-wrapper">
+          <div id="circle-1"></div>
+          <div id="dash-1"></div>
+
+          <div id="horizontal-dash"></div>
+          <div id="vertical-dash"></div>
+
+          <div id="circle-2"></div>
+          <div id="dash-2"></div>
+        </div>
+
+        <div class="side-elemnts-pack right-bottom-elements-wrapper">
+          <div id="circle-1"></div>
+          <div id="dash-1"></div>
+
+          <div id="horizontal-dash"></div>
+          <div id="vertical-dash"></div>
+
+          <div id="circle-2"></div>
+          <div id="dash-2"></div>
+        </div>
+      </div>
+
+      <div class="corners corner-1"></div>
+      <div class="corners corner-2"></div>
+      <div class="corners corner-3"></div>
+      <div class="corners corner-4"></div>
+
+      <img 
+        id="side-panel"
+        src="assets/img/side_panel.png" alt="">
+    </div>
+    <!-- end of frame elements -->
+
+    <!-- controllers -->
+    <div class="btn scroll-down" onclick="scrollMovement('scroll-down')">￬</div>
+    <div class="btn scroll-up" onclick="scrollMovement('scroll-up')">￬</div>
+    <div class="mid-icon">
+      <img
+        class="mid-icon-img mx-auto d-block"
+        src="assets/img/content/mid-icon.png"
+        alt=""
+      />
+    </div>
+    <!-- end of controllers -->
+
+    <!-- content -->
+    <div data-scroll-container>
+      <!-- story 01 -->
+      <div id="story-01">
+        <div class="section-01">
+          <h3 class="title text-uppercase" id="title-01">love</h3>
+          <img
+            class="intro-01"
+            src="assets/img/content/story-01/intro-img.png"
+            alt=""
+          />
+          <div id="shape-01"></div>
+          <div class="shader"></div>
+          <img class="bg-01" src="assets/img/content/story-01/background-img.png" alt="" />
+        </div>
+
+        <div class="section-02">
+          <div class="m-scroll">
+            <p class="my-auto">Aphrodite</p>
+
+            <div>
+              <img
+                class="image-01"
+                src="assets/img/content/story-01/sticker-img-01.png"
+                alt=""
+              />
+            </div>
+
+            <p>is the ancient is the ancient Greek goddess</p>
+
+            <div>
+              <img
+                class="image-01"
+                src="assets/img/content/story-01/sticker-img-01.png"
+                alt=""
+              />
+            </div>
+
+            <p>of sexual love and</p>
+
+            <div>
+              <img
+                class="image-01"
+                src="assets/img/content/story-01/sticker-img-03.png"
+                alt=""
+              />
+            </div>
+
+            <p>beauty, identified with Venus by the Romans</p>
+          </div>
+        </div>
+
+        <div class="section-03">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-5 col-md-5 col-lg-5 my-auto">
+                <div class="inner_img">
+                  <div class="img">
+                    <img
+                      class="mx-auto d-block img-03"
+                      src="assets/img/content/story-01/description-img.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-7 col-md-7 col-lg-7 second-col">
+                <p class="description first-paragraph">
+                  Aphrodite, ancient Greek goddess of sexual love and beauty,
+                  identified with Venus by the Romans. The Greek word aphros means
+                  “foam,” and Hesiod relates in his Theogony that Aphrodite was
+                  born from the white foam produced by the severed genitals of
+                  Uranus (Heaven), after his son Cronus threw them into the sea.
+                </p>
+
+                <p class="description second-paragraph">
+                  Aphrodite was, in fact, widely worshipped as a goddess of the
+                  sea and of seafaring; she was also honoured as a goddess of war,
+                  especially at Sparta, Thebes, Cyprus, and other places. However,
+                  she was known primarily as a goddess of love and fertility and
+                  even occasionally presided over marriage. Although prostitutes
+                  considered Aphrodite their patron, her public cult was generally
+                  solemn and even austere.
+                </p>
+
+                <p class="description third-paragraph">
+                  Some scholars believe Aphrodite’s worship came to Greece from
+                  the East; many of her attributes recall the ancient Middle
+                  Eastern goddesses Ishtar and Astarte. Although Homer called her
+                  “Cyprian” after the island chiefly famed for her worship, she
+                  was already Hellenized by the time of Homer, and, according to
+                  Homer, she was the daughter of Zeus and Dione, his consort at
+                  Dodona.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end of story 01 -->
+
+      <!-- story 02 -->
+      <div id="story-02">
+        <div class="section-01">
+          <!-- <div class="mid-icon">
+            <img
+              class="mid-icon-img mx-auto d-block"
+              src="assets/img/content/mid-icon.png"
+              alt=""
+            />
+          </div> -->
+          <h3 class="title text-uppercase" id="title-02">love</h3>
+          <img
+            class="intro-01"
+            src="assets/img/content/story-02/intro-img.png"
+            alt=""
+          />
+          <div id="shape-01"></div>
+          <div class="shader"></div>
+          <img class="bg-01" src="assets/img/content/story-02/background-img.png" alt="" />
+        </div>
+
+        <div class="section-02">
+          <div class="m-scroll">
+            <p class="my-auto">athena</p>
+
+            <div>
+              <img
+                class="image-01"
+                src="assets/img/content/story-02/sticker-img-01.png"
+                alt=""
+              />
+            </div>
+
+            <p>also known as athene</p>
+
+            <div>
+              <img
+                class="image-01"
+                src="assets/img/content/story-02/sticker-img-02.png"
+                alt=""
+              />
+            </div>
+
+            <p>the city protectress</p>
+
+            <div>
+              <img
+                class="image-01"
+                src="assets/img/content/story-02/sticker-img-03.png"
+                alt=""
+              />
+            </div>
+
+            <p>goddess of war</p>
+
+            <div>
+              <img
+                class="image-01"
+                src="assets/img/content/story-02/sticker-img-04.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="section-03">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-5 col-md-5 col-lg-5 my-auto">
+                <div class="inner_img">
+                  <div class="img">
+                    <img
+                      class="mx-auto d-block img-03"
+                      src="assets/img/content/story-02/description-img.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-7 col-md-7 col-lg-7 second-col">
+                <p class="description first-paragraph">
+                  Athena, also spelled Athene, in Greek religion, the city protectress, 
+                  goddess of war, handicraft, and practical reason, identified by the Romans 
+                  with Minerva. She was essentially urban and civilized, the antithesis in many 
+                  respects of Artemis, goddess of the outdoors. Athena was probably a pre-Hellenic 
+                  goddess and was later taken over by the Greeks.
+                </p>
+
+                <p class="description second-paragraph">
+                  She was the daughter of Zeus, produced without a mother, so that she emerged 
+                  full-grown from his forehead. There was an alternative story that Zeus 
+                  swallowed Metis, the goddess of counsel, while she was pregnant with Athena, 
+                  so that Athena finally emerged from Zeus. Athena’s association with the acropolises 
+                  of various Greek cities probably stemmed from the location of the kings’ palaces there. 
+                  She was thought to have had neither consort nor offspring.
+                </p>
+
+                <p class="description third-paragraph">
+                  In Homer’s Iliad, Athena, as a war goddess, inspires and fights alongside the Greek heroes; 
+                  her aid is synonymous with military prowess. Also in the Iliad, Zeus, the chief god, 
+                  specifically assigns the sphere of war to Ares, the god of war, and Athena. Athena’s 
+                  moral and military superiority to Ares derives in part from the fact that she represents 
+                  the intellectual and civilized side of war and the virtues of justice and skill,
+                  whereas Ares represents mere blood lust.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end of story 02 -->
+
+      <!-- story 03 -->
+      <div id="story-03">
+        <div class="section-01">
+          <!-- <div class="mid-icon">
+            <img
+              class="mid-icon-img mx-auto d-block"
+              src="assets/img/content/mid-icon.png"
+              alt=""
+            />
+          </div> -->
+          <h3 class="title text-uppercase" id="title-03">love</h3>
+          <img
+            class="intro-01"
+            src="assets/img/content/story-03/intro-img.png"
+            alt=""
+          />
+          <div id="shape-01"></div>
+          <div class="shader"></div>
+          <img class="bg-01" src="assets/img/content/story-03/background-img.png" alt="" />
+        </div>
+
+        <div class="section-02">
+          <div class="m-scroll">
+            <p class="my-auto">Demeter</p>
+
+            <div>
+              <img
+                class="image-01"
+                src="assets/img/content/story-03/sticker-img-01.png"
+                alt=""
+              />
+            </div>
+
+            <p>Greek goddess of the harvest</p>
+
+            <div>
+              <img
+                class="image-01"
+                src="assets/img/content/story-03/sticker-img-02.png"
+                alt=""
+              />
+            </div>
+
+            <p>mother of Persephone</p>
+
+            <div>
+              <img
+                class="image-01"
+                src="assets/img/content/story-03/sticker-img-03.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="section-03">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-5 col-md-5 col-lg-5 my-auto">
+                <div class="inner_img">
+                  <div class="img">
+                    <img
+                      class="mx-auto d-block img-03"
+                      src="assets/img/content/story-03/description-img.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-7 col-md-7 col-lg-7 second-col">
+                <p class="description first-paragraph">
+                  Demeter was the Ancient Greek goddess of the harvest. 
+                  She was a very important goddess to Ancient Greek people, 
+                  who farmed a lot of their food. Demeter had a kind and beautiful daughter, 
+                  called Persephone, who she loved very much. Persephone, like her mum, loved nature. 
+                  One day she was walking in a beautiful meadow and gathering flowers to take home 
+                  when a huge hole opened up in the ground. Hades – the God of the Underworld – arrived 
+                  through the hole and captured Persephone. He wanted the lovely Persephone to be his wife. 
+                  How do you think Persephone felt?
+                </p>
+
+                <p class="description second-paragraph">
+                  Demeter could no longer see her daughter and missed her hugely. She was so sad, it affected 
+                  the harvest across Greece. Crops, fruit and nature all stopped growing. She went to Zeus, 
+                  the king of the gods, to ask him to help get her daughter back from Hades. Zeus could see 
+                  how Demeter’s sadness was affecting Earth and so he agreed to help her.
+                </p>
+
+                <p class="description third-paragraph">
+                  Zeus and Hades agreed that Persephone would have to spend six months in the Underworld, 
+                  but that she could return to Earth for the other six months of the year. One month for 
+                  every pomegranate seed. From then on, whenever Persephone was with Demeter on Earth, 
+                  Demeter would be so happy and crops, fruit and plants would grow and flourish beautifully – 
+                  but when she went back to the Underworld, to live with Hades for six months, 
+                  the plants would stop growing entirely.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end of story 03 -->
+
+      <!-- story 04 -->
+      <div id="story-04">
+        <div class="section-01">
+          <!-- <div class="mid-icon">
+            <img
+              class="mid-icon-img mx-auto d-block"
+              src="assets/img/content/mid-icon.png"
+              alt=""
+            />
+          </div> -->
+          <h3 class="title text-uppercase" id="title-04">love</h3>
+          <img
+            class="intro-01"
+            src="assets/img/content/story-04/intro-img.png"
+            alt=""
+          />
+          <div id="shape-01"></div>
+          <div class="shader"></div>
+          <img class="bg-01" src="assets/img/content/story-04/background-img.png" alt="" />
+        </div>
+
+        <div class="section-02">
+          <div class="m-scroll">
+            <p class="my-auto">Amphitrite in Greek mythology</p>
+
+            <div>
+              <img
+                class="image-01"
+                src="assets/img/content/story-04/sticker-img-01.png"
+                alt=""
+              />
+            </div>
+
+            <p>the goddess of the sea</p>
+
+            <div>
+              <img
+                class="image-01"
+                src="assets/img/content/story-04/sticker-img-02.png"
+                alt=""
+              />
+            </div>
+
+            <p>god Poseidon's wife</p>
+
+            <div>
+              <img
+                class="image-01"
+                src="assets/img/content/story-04/sticker-img-03.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="section-03">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-5 col-md-5 col-lg-5 my-auto">
+                <div class="inner_img">
+                  <div class="img">
+                    <img
+                      class="mx-auto d-block img-03"
+                      src="assets/img/content/story-04/description-img.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-7 col-md-7 col-lg-7 second-col">
+                <p class="description first-paragraph">
+                  Amphitrite, in Greek mythology, the goddess of the sea, wife of the god Poseidon, 
+                  and one of the 50 (or 100) daughters (the Nereids) of Nereus and Doris 
+                  (the daughter of Oceanus). Poseidon chose Amphitrite from among her 
+                  sisters as the Nereids performed a dance on the isle of Naxos. Refusing his 
+                  offer of marriage, she fled to Atlas, from whom she was retrieved by a 
+                  dolphin sent by Poseidon.
+                </p>
+
+                <p class="description second-paragraph">
+                  Amphitrite then returned, becoming Poseidon’s wife; he rewarded the dolphin 
+                  by making it a constellation. In works of art Amphitrite was represented either 
+                  enthroned beside Poseidon or driving with him in a chariot drawn by sea horses 
+                  or other fabulous sea creatures. 
+                </p>
+
+                <p class="description third-paragraph">
+                  The Greek sea god Poseidon was initially supposed to marry Thetis, a sea nymph and 
+                  sister of Amphitrite, but quickly backed out of the agreement after being told by 
+                  the prophet Themis that any son Thetis would bear would be greater than his father. 
+                  Poseidon first laid eyes on Amphitrite while she was dancing at low tide with her 
+                  sisters on the isle of Naxos. He immediately fell in love with her and asked 
+                  for her hand in marriage.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end of story 04 -->
+    </div>
+    <!-- enf of content -->
+
+
+    <!-- bootstrap v5.2 js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- custom scripts -->
+    <script type="module" src="assets/js/script.js"></script>
+
+    <script>
+      var amount = 0;
+      function scrollMovement(movement){
+        switch (movement) {
+          case 'scroll-down':
+              amount2 = 0;
+              window.scrollTo(0, 250 + amount);
+              amount = amount + 250;    
+            break;
+        
+          case 'scroll-up':
+            window.scrollTo(0, (amount - 250));
+            amount = amount - 250;
+            break;
+          
+          default:
+            break;
+        }
+      }
+
+      var imgOneArr = ['love', 'beauty', 'sex', 'lust', 'glamour'];
+      var imgTwoArr = ['war', 'struggle', 'mission', 'combat', 'bloodshed'];
+      var imgThreeArr = ['harvest', 'green', 'plants', 'forest', 'crops'];
+      var imgFourArr = ['coastal', 'deepwater', 'brine', 'blue', 'calm'];
+
+      window.setInterval(function() {
+        let rndInt = Math.floor(Math.random() * 5) + 0;
+        if(rndInt == rndInt){
+          rndInt = Math.floor(Math.random() * 5) + 0;
+        }
+
+        $('#title-01').animate({'opacity' : 0}, 400, function(){
+          $(this).html(imgTwoArr[rndInt]).animate({'opacity': 1}, 2000);
+        });
+
+        $('#title-02').animate({'opacity' : 0}, 400, function(){
+          $(this).html(imgOneArr[rndInt]).animate({'opacity': 1}, 2000);
+        });
+
+        $('#title-03').animate({'opacity' : 0}, 400, function(){
+          $(this).html(imgThreeArr[rndInt]).animate({'opacity': 1}, 2000);
+        });
+
+        $('#title-04').animate({'opacity' : 0}, 400, function(){
+          $(this).html(imgFourArr[rndInt]).animate({'opacity': 1}, 2000);
+        });
+      }, 2000);
+    </script>
+  </body>
+</html>

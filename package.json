@@ -1,0 +1,28 @@
+{
+  "name": "transparent-frame",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vihanpereraux/Greek-Goddess-Transparent-Web.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vihanpereraux/Greek-Goddess-Transparent-Web/issues"
+  },
+  "homepage": "https://github.com/vihanpereraux/Greek-Goddess-Transparent-Web#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.2",
+    "parcel": "^2.8.2"
+  },
+  "dependencies": {
+    "gsap": "^3.11.4",
+    "locomotive-scroll": "^4.1.4"
+  }
+}
